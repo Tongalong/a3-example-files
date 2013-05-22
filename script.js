@@ -1,3 +1,4 @@
-$(document).ready{function(){
-	$("li:even").text("20% off");
+$(document).ready(function(){
+	$("li:even>h2").text("20% off");
+});
     
